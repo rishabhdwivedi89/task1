@@ -7,7 +7,7 @@ def generate_fibonacci(n):
 
     return fibonacci_sequence[:n]
 
-# Get the number of terms from the user
+
 try:
     n = int(input("Enter the number of terms for the Fibonacci sequence: "))
     if n <= 0:
